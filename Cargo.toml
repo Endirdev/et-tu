@@ -1,0 +1,23 @@
+[package]
+name = "et_tu"
+version = "0.1.0"
+edition = "2021"
+description = "Et Tu — graphical brute forcer for Latin-square shape puzzles (see et tu problem.png)"
+license = "MIT"
+
+[lib]
+name = "et_tu"
+path = "src/lib.rs"
+
+[[bin]]
+name = "et_tu"
+path = "src/main.rs"
+
+[[bin]]
+name = "et_tu_generator"
+path = "src/bin/generator.rs"
+
+[dependencies]
+eframe = "0.36"
+
+[dev-dependencies]

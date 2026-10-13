@@ -1,0 +1,10 @@
+# Et Tu example — transcribed from `et tu problem.png`
+# 5x5 Latin square: each shape once per row and column.
+# Tokens: * = star, T = triangle, o = circle, + = plus, S = square
+#         . = empty, ? = query cell
+N=5
+. ? . . *
+. S . . o
++ . T . S
+* . S . T
+. . . T +
